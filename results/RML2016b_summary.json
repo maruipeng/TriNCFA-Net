@@ -1,0 +1,105 @@
+{
+  "dataset": "RML2016b",
+  "epochs": 100,
+  "timestamp": "2026-05-10T15:07:56",
+  "total_minutes": 6875.448652454217,
+  "log": [
+    {
+      "model": "FEA_T",
+      "ok": true,
+      "elapsed_min": 1048.800538388888,
+      "json": "results/RML2016b_FEA_T_baseline_best.json"
+    },
+    {
+      "model": "MCFormer",
+      "ok": true,
+      "elapsed_min": 1564.3989475448927,
+      "json": "results/RML2016b_MCFormer_baseline_best.json"
+    },
+    {
+      "model": "IQFormer",
+      "ok": true,
+      "elapsed_min": 1991.6400473197302,
+      "json": "results/RML2016b_IQFormer_baseline_best.json"
+    },
+    {
+      "model": "SMT",
+      "ok": true,
+      "elapsed_min": 377.0687215367953,
+      "json": "results/RML2016b_SMT_baseline_best.json"
+    },
+    {
+      "model": "TriNCFA_Net",
+      "ok": true,
+      "elapsed_min": 1893.540397663911,
+      "json": "results/RML2016b_TriNCFA_Net_baseline_best.json"
+    }
+  ],
+  "rows": [
+    {
+      "Model": "FEA_T",
+      "Params(M)": 0.169834,
+      "FLOPs(M)": 6.653632,
+      "PerSample(ms)": 0.23988689422607423,
+      "Latency_1f(ms)": 8.09005126953125,
+      "Throughput(fps)": 4168.63123442492,
+      "Acc": 0.6433458333333333,
+      "F1": 0.6424993676323445,
+      "LowSNR": 0.4049901073498768,
+      "HighSNR": 0.9320545160943066,
+      "Peak": 0.9387263052876621
+    },
+    {
+      "Model": "MCFormer",
+      "Params(M)": 0.276682,
+      "FLOPs(M)": 18.172416,
+      "PerSample(ms)": 0.4316511535644531,
+      "Latency_1f(ms)": 1.4515000915527343,
+      "Throughput(fps)": 2316.685572926848,
+      "Acc": 0.6510291666666667,
+      "F1": 0.6567087573187649,
+      "LowSNR": 0.41903887100762965,
+      "HighSNR": 0.9333204617124924,
+      "Peak": 0.9375207159429897
+    },
+    {
+      "Model": "IQFormer",
+      "Params(M)": 0.356686,
+      "FLOPs(M)": 46.674176,
+      "PerSample(ms)": 0.5865508270263672,
+      "Latency_1f(ms)": 6.689505615234375,
+      "Throughput(fps)": 1704.882090218325,
+      "Acc": 0.6528416666666667,
+      "F1": 0.6545510445764938,
+      "LowSNR": 0.42115702432312024,
+      "HighSNR": 0.9346272482750893,
+      "Peak": 0.9384551838083437
+    },
+    {
+      "Model": "SMT",
+      "Params(M)": 0.066251,
+      "FLOPs(M)": 3.011136,
+      "PerSample(ms)": 0.04977663993835449,
+      "Latency_1f(ms)": 5.286915893554688,
+      "Throughput(fps)": 20089.744933335045,
+      "Acc": 0.6515875,
+      "F1": 0.6534386084079122,
+      "LowSNR": 0.41795723594114437,
+      "HighSNR": 0.9356068366181779,
+      "Peak": 0.9401539607648374
+    },
+    {
+      "Model": "TriNCFA_Net",
+      "Params(M)": 0.082894,
+      "FLOPs(M)": 5.411168,
+      "PerSample(ms)": 0.28576852798461916,
+      "Latency_1f(ms)": 11.222498779296876,
+      "Throughput(fps)": 3499.3356583123204,
+      "Acc": 0.6682166666666667,
+      "F1": 0.6689324015595262,
+      "LowSNR": 0.44787164193419843,
+      "HighSNR": 0.936381442422072,
+      "Peak": 0.9447065640261568
+    }
+  ]
+}
